@@ -47,15 +47,15 @@ else if (markSheet > 50 && markSheet < 60){
     document.getElementById("demo").innerHTML = "D";
     window.alert ('Yaay!, You Have Passed');
 }
-else if (markSheet> 60 && markSheet < 70){
+else if (markSheet >= 60 && markSheet < 70){
      document.getElementById("demo").innerHTML = "C";
      window.alert ('Yaay!, You Have Passed');
 }
-else if (markSheet > 70 && markSheet < 80){
+else if (markSheet >= 70 && markSheet < 80){
     document.getElementById("demo").innerHTML = "B";
     window.alert ('Yaay!, You Have Passed');
 }
-else if (markSheet > 80 && markSheet < 90){
+else if (markSheet >= 80 && markSheet < 90){
    document.getElementById("demo").innerHTML = "A";
    window.alert ('Yaay!, You Have Passed');
 }
