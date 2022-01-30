@@ -1,10 +1,9 @@
 
 
+// Output by Console Log 
+
 var yourMarks = 77;
 
-
-
-// Output by Console Log  
 
 if (yourMarks <= 50){
 
@@ -28,9 +27,12 @@ else if (yourMarks > 80 && yourMarks < 90){
     console.log ( "Your Grade : A ")
     console.log("You Have Passed")
 }
-else {
+else if (yourMarks > 90 && yourMarks <= 100){
     console.log ( "Your Grade : A+ ")
     console.log("You Have Passed")
+}
+else{
+    console.log("You are Einstein! Go to Nasa immediately!!")
 }
 
 
